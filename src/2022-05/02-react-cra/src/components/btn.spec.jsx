@@ -4,13 +4,15 @@ import { Btn } from './btn';
 test('btn should have hi text', () => {
   render(<Btn />);
   // screen.debug();
-  expect(screen.getByText('hi')).toBeInTheDocument();
-  expect(screen.getByText('hi')).toBeVisible();
   expect(screen.getByRole('button')).toHaveTextContent('hi');
 });
 
-
-test.only('btn snapshot test', () => {
+test('btn snapshot test without props', () => {
   const { container } = render(<Btn />);
-  expect(container).toMatchInlineSnapshot();
+  expect(container).toMatchSnapshot();
+});
+
+test('btn snapshot test with props', () => {
+  const { container } = render(<Btn hidden={false} disabled />);
+  expect(container).toMatchSnapshot();
 });

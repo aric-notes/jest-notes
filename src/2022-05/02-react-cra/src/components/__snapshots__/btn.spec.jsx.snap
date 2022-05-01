@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`btn snapshot test with props 1`] = `
+<div>
+  <button
+    disabled=""
+  >
+    hi
+  </button>
+</div>
+`;
+
+exports[`btn snapshot test without props 1`] = `
+<div>
+  <button>
+    hi
+  </button>
+</div>
+`;
