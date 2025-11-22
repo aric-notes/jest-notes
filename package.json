@@ -1,27 +1,8 @@
 {
   "name": "jest-notes",
   "version": "1.0.0",
-  "description": "> Jest learning notes.",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
-  "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/afeiship/jest-notes.git"
-  },
-  "keywords": [],
-  "author": "afeiship",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/afeiship/jest-notes/issues"
-  },
-  "homepage": "https://github.com/afeiship/jest-notes#readme",
-  "devDependencies": {
-    "jest": "^28.0.3"
-  }
+  "private": true,
+  "type": "module",
+  "description": "Jest learning notes.",
+  "license": "MIT"
 }
