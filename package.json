@@ -2,7 +2,14 @@
   "name": "jest-notes",
   "version": "1.0.0",
   "private": true,
-  "type": "module",
   "description": "Jest learning notes.",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
 }
